@@ -1,0 +1,15 @@
+/------------------------------------
+Right Drive Train Max Encoder
+
+165 in Distance / 200 ms
+
+
+/------------------------------------
+Left Drive Train Max Encoder
+
+185 in Distance / 200 ms
+
+/-------------------------------------
+Distance per pulse
+
+0.1628 in/pulse

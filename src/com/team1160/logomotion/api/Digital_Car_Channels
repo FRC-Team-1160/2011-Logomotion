@@ -1,0 +1,41 @@
+//-----------------------------------------------------------------------------
+//PWM
+
+1 - Right DriveTrain Jaguar
+2 - Left DriveTrain Jaguar
+
+3 - Right Shoulder Victor
+4 - Left Shoulder Victor
+
+5 - Wrist Victor
+
+6 - Turn Table Jaguar
+
+7 - Servo
+
+//-----------------------------------------------------------------------------
+//DIO
+
+1 - Pnuematic Switch Pressure Sensor
+
+2 - Source A Right DriveTrain Encoder
+3 - Source B Right DriveTrain Encoder
+
+4 - Source A Left DriveTRain Encoder
+5 - Source B LEft DriveTrain Encoder
+
+//-----------------------------------------------------------------------------
+//Relay
+
+1 - Spike of Compressor
+
+//-----------------------------------------------------------------------------
+//Analog Module Inputs
+
+1 - Shoulder pot
+
+2 - Wrist Pot
+
+3 - TurnTable Pot
+
+//0.585/3.3
