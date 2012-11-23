@@ -11,7 +11,7 @@ import com.team1160.logomotion.model.states.DeploymentState;
 import com.team1160.logomotion.model.states.PnuematicsState;
 
 /**
- *
+ * Compiles all the subsytem states into one robot state
  * @author CJ
  */
 public class RobotState {

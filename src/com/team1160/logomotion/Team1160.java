@@ -223,16 +223,16 @@ public class Team1160 extends IterativeRobot {
           RobotCommand nextRobotCommand;
 
           try{
-            this.model.updateModel();
+            this.model.updateModel(); 
             inputState = this.inputManager.getInputState();
             robotState = this.model.getCurrentRobotState();
             nextRobotCommand = this.teleopManager.getRobotCommand(inputState, robotState);
 
-            this.autonomousFileManager.write(nextRobotCommand);
+            this.autonomousFileManager.write(nextRobotCommand); // Left over bit that was going to record output for playback later
 
-            this.outputManager.outputToRobot(nextRobotCommand);
+            this.outputManager.outputToRobot(nextRobotCommand); // Tells the output manager to tell the robot to do something
 
-            if(System.currentTimeMillis() - this.lastPrintTime > 3000){
+            if(System.currentTimeMillis() - this.lastPrintTime > 3000){ // Prints debug info, has to wait or else you get to much info and it is unusable
                 this.lastPrintTime = System.currentTimeMillis();
                 System.out.println("/--------------------------------------------");
                 if(this.m_ds.getDigitalIn(8))

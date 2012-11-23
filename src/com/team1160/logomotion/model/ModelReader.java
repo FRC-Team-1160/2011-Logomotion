@@ -6,7 +6,7 @@
 package com.team1160.logomotion.model;
 
 /**
- *
+ * I don't think this class does anything its just sorta here
  * @author CJ
  */
 public class ModelReader {

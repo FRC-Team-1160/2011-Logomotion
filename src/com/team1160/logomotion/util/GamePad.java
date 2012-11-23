@@ -14,7 +14,7 @@ import edu.wpi.first.wpilibj.Joystick;
 public class GamePad {
     Joystick gamepad;
 
-    public GamePad(int channel) {
+    public GamePad(int channel) {  // The constructor takes a channel to let the computer know where to "find" the gamepad
         this.gamepad = new Joystick(channel);
     }
 
@@ -35,7 +35,7 @@ public class GamePad {
         return gamepad.getRawAxis(4);
     }
 
-    public boolean getRawButton(int button) {
+    public boolean getRawButton(int button) {  // Checks the state of a given button
         return gamepad.getRawButton(button);
     }
 

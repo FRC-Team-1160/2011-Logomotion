@@ -6,7 +6,7 @@
 package com.team1160.logomotion.model;
 
 /**
- *
+ * Interface for model notifiers... not much to say
  * @author CJ
  */
 public interface ModelNotifier {
